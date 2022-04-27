@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header  class="header">Vacation Planner</header>
+    <div class="row">
+        <div class="grid col s12m6">
+            <label for="city" class="city" >Destination City</label>
+            <input type="text" class="inputcity" placeholder="Enter city" id="search-form">
+            <button class="btn waves-effect waves-light" type="submit" name="action" id="searchBtn"=>Search
+                
+            </button>
+        </div>
+        <div class="grid col s12m6"><span class="flow-text"></span>
+            <h2 class="pastsearch">Search History</h2>
+        </div>
+    </div>
+
+        <div class="mapcontainer">
+            
+        </div>
+        <div class="row-flex">
+            <div class="attraction" class="col s6"></div>
+            <div class="attractioninfo" class="col s6"></div>
+        </div>
+            
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src ="./assets/js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmaPjgywCHW1GT-5xlkT9PksCs0NDi2lA&libraries=places"></script>
+</body>
+
+</html>
